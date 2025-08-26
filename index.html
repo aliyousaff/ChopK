@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChopK — Train the Muscle No One Talks About</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Manrope:wght@700;800&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span class="logo" aria-hidden="true"></span>
+        <span>ChopK</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features" class="btn">Features</a>
+        <a href="#results" class="btn">Results</a>
+        <a href="#faq" class="btn">FAQ</a>
+        <a href="#download" class="btn btn-outline-accent">Get the App</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="eyebrow">MEN'S INTIMATE HEALTH • SCIENCE-BACKED</div>
+        <h1>
+          Train the
+          <span class="rotate rotate-accent" aria-live="polite">
+            <span class="word active">Muscle</span>
+            <span class="word">Kegels</span>
+          </span>
+          No One Talks About.
+        </h1>
+        <p class="sub">
+          Build strength, stamina, and control with a science-backed routine designed for men who demand more. Discipline-based training. No fluff. Real progress.
+        </p>
+        <div class="cta-row">
+          <a href="#download" class="btn btn-primary pulse">Start Free Today</a>
+          <button id="openQuiz" class="btn btn-ghost">Take the 2-min Quiz</button>
+        </div>
+        <div class="hero-card">
+          <div class="tick">✓</div>
+          <div>Proven routines for pelvic strength, breath control, and stamina. Anonymous by design.</div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="ui-phone">
+          <div class="ui-screen"></div>
+          <div class="ui-stats">
+            <div class="row">
+              <strong>Today's Session</strong>
+              <span class="clock">12:36</span>
+            </div>
+            <div class="bar"><i></i></div>
+            <div class="stat-cards">
+              <div class="mini-card">
+                <div class="mini-icon">⏱️</div>
+                <div class="title">Intervals</div>
+                <small>4 × 60s</small>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">🫁</div>
+                <div class="title">Breath</div>
+                <small>Box 4-4-4-4</small>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">💪</div>
+                <div class="title">Power</div>
+                <small>Level 6</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES (Light scheme + orange blend + directional slide-in) -->
+  <section id="features" class="section-light reveal" aria-labelledby="features-title">
+    <div class="container">
+      <h2 id="features-title" class="section-title fade-pop">Your Edge in the Bedroom &amp; Beyond</h2>
+      <p class="section-sub fade-pop">Three pillars, one system. Kegels for control, fitness for power, breathing for endurance. Built for privacy and consistency.</p>
+
+      <div class="grid-3">
+        <article class="feature-card reveal-left"  tabindex="0" aria-label="Kegel Training: Control">
+          <div class="fc-icon">🎯</div>
+          <h3>Kegel Training</h3>
+          <p class="fc-text">Timed holds, pulses, and intervals that build measurable control without guesswork.</p>
+        </article>
+
+        <article class="feature-card reveal-up" tabindex="0" aria-label="Fitness Modules: Power">
+          <div class="fc-icon">🏋️</div>
+          <h3>Fitness Modules</h3>
+          <p class="fc-text">Short strength &amp; mobility stacks designed to amplify performance without equipment.</p>
+        </article>
+
+        <article class="feature-card reveal-right" tabindex="0" aria-label="Breathwork: Stamina">
+          <div class="fc-icon">🫁</div>
+          <h3>Breathwork</h3>
+          <p class="fc-text">Box, cadence, and resisted patterns to extend endurance and calm the nervous system.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results" class="reveal results-section" aria-labelledby="results-title">
+    <div class="container">
+      <h2 id="results-title" class="section-title">Real Men. Real Results.</h2>
+      <p class="section-sub">Anonymous, verified testimonials from users who committed to the program.</p>
+
+      <div class="results-grid carousel" id="carousel">
+        <article class="testi reveal-left">
+          <div class="stars">★★★★★</div>
+          <h3>“More control in 3 weeks.”</h3>
+          <p>Went from guesswork to a plan. The breathing + intervals combo is lethal. Confidence up, anxiety down.</p>
+          <small>— 28, anonymous</small>
+        </article>
+
+        <article class="testi reveal-up">
+          <div class="stars">★★★★★</div>
+          <h3>“Quietly life-changing.”</h3>
+          <p>It’s private and actually works if you show up. The streaks + short sessions keep me consistent.</p>
+          <small>— 33, anonymous</small>
+        </article>
+
+        <article class="testi reveal-right">
+          <div class="stars">★★★★☆</div>
+          <h3>“More stamina, less stress.”</h3>
+          <p>Didn’t expect breath training to matter this much. Sleep and focus improved too.</p>
+          <small>— 41, anonymous</small>
+        </article>
+      </div>
+
+      <div class="car-btn">
+        <button id="prev" aria-label="Previous">◄</button>
+        <button id="next" aria-label="Next">►</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section-light section-tight reveal" aria-labelledby="faq-title">
+    <div class="container faq">
+      <h2 id="faq-title" class="section-title fade-pop">FAQs</h2>
+      <p class="section-sub fade-pop">Straight answers. No fluff.</p>
+
+      <div class="faq-item">
+        <div class="faq-q"><strong>How long are the sessions?</strong><span>+</span></div>
+        <div class="faq-a"><div class="section-sub">Most routines are 6–12 minutes. Short enough to stay consistent, long enough to move the needle.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><strong>Is my data private?</strong><span>+</span></div>
+        <div class="faq-a"><div class="section-sub">ChopK is anonymous-first. No social features. Local streaks, encrypted sync (when enabled).</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><strong>Will this help stamina?</strong><span>+</span></div>
+        <div class="faq-a"><div class="section-sub">Pair pelvic work (control) with breath (regulation) and light strength (capacity). Results require consistency.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><strong>Do I need equipment?</strong><span>+</span></div>
+        <div class="faq-a"><div class="section-sub">No. Train anywhere — no gear, no public gym needed.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section id="download" class="reveal">
+    <div class="container download-grid">
+      <div>
+        <h2 class="section-title">Start Free. Train in Private.</h2>
+        <p class="section-sub">Join thousands of men who quietly built strength, stamina, and control. Your first week is on us.</p>
+        <div class="stores">
+          <a class="btn btn-primary store pulse" href="#"><span class="store-sm">Get it on</span> Google Play</a>
+          <a class="btn btn-primary store pulse" href="#"><span class="store-sm">Download on</span> App Store</a>
+        </div>
+      </div>
+      <div class="card bonus">
+        <div class="badge badge-orange">Bonus</div>
+        <h3>First-Week Starter Plan</h3>
+        <p class="card-text">A structured 7-day ramp with timed holds, breath cadence, and streak targets. Designed to build momentum fast.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta" id="stickyCta" aria-live="polite">
+    <div class="sticky-inner container">
+      <div class="sticky-left">
+        <div class="logo small"></div>
+        <strong>Ready to train? Start your free week.</strong>
+      </div>
+      <div class="sticky-right">
+        <a href="#download" class="btn btn-primary">Get the App</a>
+        <button class="close" aria-label="Dismiss" id="closeSticky">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating CTA (FAB) -->
+  <button class="fab-cta btn btn-primary pulse" id="fabCta" aria-label="Get the App">↑</button>
+
+<!-- Inactivity Popup -->
+<div class="modal" id="inactModal" aria-hidden="true" role="dialog" aria-labelledby="inactTitle" aria-modal="true">
+  <div class="modal-backdrop" id="inactBackdrop"></div>
+  <div class="modal-dialog" role="document" tabindex="-1">
+    <button class="modal-close" id="inactClose" aria-label="Close">✕</button>
+    <div class="modal-body">
+      <h3 id="inactTitle">Get <span class="accent">40% Off</span> — For Life</h3>
+      <p class="modal-sub">
+        Be part of our early community. ChopK is coming soon with smarter pelvic, breathing, and mindful training — designed to help you feel stronger and more in control.
+      </p>
+      <form id="inactForm" class="modal-form" novalidate>
+        <label for="inactEmail" class="sr-only">Email</label>
+        <input id="inactEmail" name="email" type="email" placeholder="Email" required />
+        <button type="submit" class="btn btn-primary">Drop your email for early access</button>
+        <p class="modal-note" id="inactMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- QUIZ MODAL -->
+<div class="modal" id="quizModal" aria-hidden="true" role="dialog" aria-labelledby="quizTitle" aria-modal="true">
+  <div class="modal-backdrop" id="quizBackdrop"></div>
+  <div class="modal-dialog quiz-dialog" role="document" tabindex="-1">
+    <button class="modal-close" id="quizClose" aria-label="Close">✕</button>
+
+    <div class="quiz-head">
+      <h3 id="quizTitle">Find Your Edge</h3>
+      <p class="quiz-sub">Answer 7 quick questions to get a tailored plan.</p>
+      <div class="quiz-progress"><div class="quiz-progress-bar" id="quizBar" style="width:0%"></div></div>
+    </div>
+
+    <form id="quizForm" class="quiz-form" data-mode="questions" novalidate>
+      <!-- Questions render here -->
+      <div class="quiz-stage" id="quizStage"></div>
+
+      <!-- Nav -->
+      <div class="quiz-nav">
+        <button type="button" id="quizPrev" class="btn btn-ghost" disabled>Back</button>
+        <button type="button" id="quizNext" class="btn btn-primary">Next</button>
+      </div>
+
+      <!-- Email Gate (appears only after finishing questions) -->
+      <div class="quiz-gate" id="quizGate" hidden>
+        <label for="quizEmail" class="sr-only">Email</label>
+        <input id="quizEmail" type="email" placeholder="Email" required />
+        <button type="submit" class="btn btn-primary">Reveal My Results</button>
+        <p class="quiz-note" id="quizMsg" role="status" aria-live="polite"></p>
+      </div>
+
+      <!-- Results (only after email submit) -->
+      <div class="quiz-result" id="quizResult" hidden>
+        <h4>Your Personalized Focus</h4>
+        <p class="qr-summary" id="qrSummary"></p>
+        <div class="qr-pills" id="qrPills"></div>
+        <button type="button" class="btn btn-primary" id="qrCta" onclick="document.querySelector('#download')?.scrollIntoView({behavior:'smooth'})">Start Free Today</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
